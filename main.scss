@@ -80,39 +80,7 @@
                 }
             }
         }
-        #favorite-spots{
-            @extend #landing;
-            margin-top: 12em;
-            .spots-header{
-                text-align: center;
 
-                p{
-                    @include fontStyle($bodyText, 1rem, 0);
-                }
-                h4{
-                    @include fontStyle($heading, 2.5rem, 0);
-                }
-            }
-            .spots{
-                @include flexPro(space-between, center, wrap, row);
-                .spots-1{
-                    @include setBackground(300px, 250px, url(../img/japan.jpg));
-                }
-                .spots-2{
-                    @include setBackground(300px, 250px, url(../img/landscape-architecture-sky-building-chateau-palace-826338-pxhere.com.jpg));
-                }
-                .spots-3{
-                    @include setBackground(300px, 250px, url(../img/landscape-grass-plant-sky-field-meadow-1110475-pxhere.com.jpg));
-                }
-                .spots-4{
-                    @include setBackground(300px, 250px, url(../img/pedestrian-architecture-road-street-town-building-1004450-pxhere.com.jpg));
-                }
-                .spot-item{
-                    padding: 1em 0 0 1em;
-                    text-shadow: $shadow;
-                }
-            }
-        }
       }
 
 
